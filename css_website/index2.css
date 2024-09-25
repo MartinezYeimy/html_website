@@ -1,0 +1,137 @@
+body {
+    background: linear-gradient(to bottom, #00aaff, #00ff77); 
+    font-family: Arial, sans-serif; 
+    font-style: italic;
+    cursor:cell
+}
+
+.aves-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(0, 0, 0);
+}
+
+.aves-section {
+    background-color: #fff;
+    border: 1px solid #490b8f;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    width: 80%;
+}
+
+.aves-content { 
+    display: flex; 
+    align-items:center; 
+    justify-content: center; 
+}
+
+.aves-table {
+    width: 300px; 
+    height: 300px; 
+    object-fit: cover; 
+    display: flex;
+    align-items: center;  
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 4px solid #ddd;
+    padding: 8px;
+    text-align: center;  
+    background-color: #f2f2f2;
+}
+
+section {
+    text-align: center;
+    margin: 3px 0;
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.aves-section a {
+    background-color: pink; 
+    color: rgb(0, 0, 0); 
+    padding: 10px 15px; 
+    border-radius: 5px; 
+}
+
+form {
+    text-align: center; 
+}
+
+.aves-section h3 {
+    text-align: center; 
+}
+
+.aves-image, .aves-table {
+    width: 300px; 
+    margin: 10px; 
+}
+
+.aves-image img {
+    width: 100%; 
+    height: auto; 
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5); 
+    border-radius: 35px; 
+    }
+
+.aves-table table {
+    width: 100%; 
+}
+.image-container {
+    text-align: center; 
+}
+
+.image-container img {
+    max-width: 100%; 
+    height: auto; 
+}
+
+h1 {
+    text-align: center;
+    color: rgb(207, 25, 110); 
+    font-family: 'Georgia', serif; 
+    animation: slide-down 2s ease; 
+    text-shadow: 8px 8px 9px rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center; 
+    color: #582e80; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    text-shadow: 8px 2px 9px rgb(119, 215, 228); 
+    font-style: italic; 
+    transition: color 0.5s ease; 
+}
+
+h2:hover {
+    color: #d80b3e; 
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+}
+
+@keyframes slide-down {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
